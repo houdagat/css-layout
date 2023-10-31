@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="docplaner-header">
+    <img src="data:image/png;base64,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" alt="logo" width="250" height="40"/>
+  
+    <div class="header-menu">
+    <ul class="list">
+  <li>
+    <a class="active" href="https://www.docplanner.com/">About us</a>
+  </li>
+  <li>
+    <a href="https://www.docplanner.com/career">Career</a>
+  </li>
+  <li class="dropdown">
+    <a href="#">Departments</a><br>
+    <div class="dropdown-content">
+        <ul>
+            <li><a href="https://www.docplanner.com/department?dep=marketing">Marketing &amp; PR</a></li>
+            <li><a href="https://www.docplanner.com/department?dep=customer">Customer Success &amp; Sales</a></li>
+            <li><a href="https://www.docplanner.com/department?dep=it">IT, Product, Data</a></li>
+            <li><a href="https://www.docplanner.com/department?dep=finance">Finance &amp; Administration</a></li>
+            <li><a href="https://www.docplanner.com/department?dep=hr">HR &amp; more</a></li>
+        </ul>
+    </div>
+  </li>
+    </ul>
+
+  </div>
+
+    </header>
+    
+    <!--section1-------------------------------------------------------------------------------------->
+    <section class="section1">
+        <div class="lead-logo">
+            <img id="logoo" src="https://www.docplanner.com/img/sygnet.png" alt="logoo"/>
+            <h1>Making the healthcare experience more human
+            </h1>
+        </div>
+
+        <div class="sec1p">
+    <p>We want patients to find the perfect doctor and book an appointment in the most easy way. 
+        The patient journey should be enjoyable,
+         and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+
+        <p>We also help doctors to better manage their practice and build their online reputation.
+             With our integrated end-to-end solution, doctors are able
+             not only to improve their online presence, but also to devote their time to what really matters:
+              their patients.</p>
+        </div>
+
+    </section>
+
+    <!-----------------------------section 2------------------------------------------>
+    <section class="section2">
+        <div class="patients">
+            <div>
+                <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="pic1"/>
+
+                <h1>For patients</h1>
+                <br>
+                <h2>Find a doctor, book a visit and solve any health-related doubt</h2>
+
+            </div>
+
+            <div class="selec">
+                <select>
+                    <option>Choose Country</option>
+                    <option>Argentina</option>
+                    <option value="http://www.doctoralia.com.mx">Bresil</option>
+                    <option>Chile</option>
+                    <option>Columbia</option>
+                    <option>Czech</option>
+                </select> 
+
+            </div>
+
+        </div>
+
+        <div class="doctors">
+
+ <div>
+                <img src="https://www.docplanner.com/icons/icon-doctors.svg" alt="pic1"/>
+
+                <h1>For doctors</h1>
+                <br>
+                <h2>Save time managing visits and cut no-shows by half</h2>
+
+            </div>
+            <div class="selec">
+                <select>
+                    <option>Choose Country</option>
+                    <option>Argentina</option>
+                    <option value="http://www.doctoralia.com.mx">Bresil</option>
+                    <option>Chile</option>
+                    <option>Columbia</option>
+                    <option>Czech</option>
+                </select> 
+
+            </div>
+
+
+        </div>
+
+        <div class="clinics">
+            <div>
+                <img src="https://www.docplanner.com/icons/icon-clinics.svg" alt="pic1"/>
+
+                <h1>For clinics</h1>
+                <br>
+                <h2>Deliver an exceptional patient experience in your clinic</h2>
+
+            </div>
+
+            <div class="selec">
+                <select>
+                    <option>2 to 20 specialists</option>
+                    <option>Argentina</option>
+                    <option value="http://www.doctoralia.com.mx">Bresil</option>
+                    <option>Chile</option>
+                    <option>Columbia</option>
+                    <option>Czech</option>
+                </select>  <br> <br>
+                <select>
+                    <option>More than 20 specialists</option>
+                    <option>Argentina</option>
+                    <option value="http://www.doctoralia.com.mx">Bresil</option>
+                    <option>Chile</option>
+                    <option>Columbia</option>
+                    <option>Czech</option>
+                </select> 
+            </div>
+
+        </div>
+
+
+    </section>
+    <div class="part2">
+<h1>We are a global<br> company<br>
+    with local culture</h1>
+    <div class="images">
+        <a href="https://www.znanylekarz.pl/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img  src="img2.png" alt=""  ></a>
+        <a href="https://www.doctoralia.es/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img3.png" alt=""></a>
+        <a href="https://www.miodottore.it/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img4.png" alt=""></a>
+        <a href="https://www.doktortakvimi.com/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img5.png" alt=""></a><br>
+        <a href="https://www.znamylekar.cz/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img6.png" alt=""></a>
+    <a href=https://www.jameda.de/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"> <img src="img7.png" alt=""></a>
+        <a href="https://www.tuotempo.it/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img8.png" alt=""></a>
+        <a  href="https://gipo.it/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img9.png" alt=""></a>
+        <a href="https://clinic-cloud.com/"><img src="img10.png" alt=""></a><br>
+        <a href="https://feegowclinic.com.br/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698225723133.1698240119115.13&__hssc=94104962.2.1698240119115&__hsfp=4192076968"><img src="img11.png" alt=""></a>
+
+    </div>
+
+    </div>
+    <div class="part3">
+        <div class="part3-1">
+ 
+    <h1>The world's biggest<br>
+    healthcare platform</h1>
+    <p>We work from 9 offices all over the world, bringing Docplanner <br>Group to life in 13 countries.</p>
+    <img src="logo.png" alt="">
+    
+        </div>
+
+    
+    <section class="container">
+       <div class="partie1">
+        <div class="container1">
+           <img src="logo1.png" alt="">  
+<h2>Leader in 13 <br>countries</h2>
+<p>Poland, Brazil, Mexico, Spain, Italy, <br>Germany, Turkey, Colombia, Czech<br> Republic, Portugal, Argentina, Peru <br> and Chile</p>
+      
+</div>
+<div class="container4">
+    <img src="logo3.png" alt="">  
+<h2>90,000,000<br> patients</h2>
+<p>visit our websites each month</p>
+
+</div>
+       </div>
+<div class="partie2">
+<div class="container2">
+    <img src="logo2.png" alt="">  
+<h2>15,000,000<br>
+    appointments</h2>
+<p>booked last month</p>
+</div>
+
+
+<div class="container3">
+    <img src="logo4.png" alt="">  
+<h2>210,000<br>
+    active doctors</h2>
+<p>trust our solutions</p>
+
+</div>
+</div>
+
+    </section>
+    </div>
+    
+    <div class="partie3">
+        <h1>Improve the lives of millions. <br>Change yours forever.</h1>
+        <p>More than 2800 team mates share our same vision, goals and passion.<br> With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, <br>Mexico City and Curitiba, our search for great talent never stops.</p>
+    </div>
+    <div class="partie4">
+        <a href="https://www.docplanner.com/career?&loc=poland#jobs-offers"> <img src="ville1.png" alt=""></a>
+        <a href="https://www.docplanner.com/career?&loc=spain#jobs-offers"><img src="ville2.png" alt=""></a> 
+        <a href="https://www.docplanner.com/career?&loc=germany#jobs-offers"><img src="ville3.png" alt=""></a><br>
+        <a href="https://www.docplanner.com/career?&loc=t%C3%BCrkiye#jobs-offers"> <img src="ville8.png" alt=""></a>
+        <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"><img src="ville9.png" alt=""></a> 
+        <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"><img src="ville10.png" alt=""></a><br>
+        <a href="https://www.docplanner.com/career?&loc=t%C3%BCrkiye#jobs-offers"><img src="ville4.png" alt=""></a>
+        <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"><img src="ville5.png" alt=""></a>
+        <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"><img src="ville6.png" alt=""></a><br>
+        <a href="https://www.docplanner.com/career?&loc=brazil#jobs-offers"><img src="ville7.png" alt=""></a>
+       <h2>Sounds interesting? Join us now!</h2>
+       <a href="https://www.docplanner.com/career"><img src="logoo.png" alt=""></a>
+    </div>
+       
+
+</body>
+
+    <div class="lien">
+    <h5>We are leaders in 13 countries: 
+    <a href="https://www.znanylekarz.pl/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Poland,</a>
+    <a href="https://www.doktortakvimi.com/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Turkey,</a>
+    <a href="https://www.doctoralia.es/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Spain,</a>
+    <a href="https://www.miodottore.it/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Italy,</a>
+    <a href="https://www.jameda.de/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Germany,</a>
+    <a href="https://www.znamylekar.cz/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Czech republic,</a>
+    <a href="https://www.doctoralia.com.pt/">Portugal</a>
+    <a href="https://www.doctoralia.com.mx/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Mexico,</a>
+    <a href="https://www.doctoralia.co/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Colombia,</a>
+    <a href="http://www.doctoralia.com.br/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Brazil,</a>
+    <a href="http://www.doctoraliar.com/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Argentina,</a>
+    <a href="http://www.doctoralia.pe/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Peru,</a>
+    <h5>and
+    <a href="http://www.doctoralia.cl/?__hstc=94104962.ac9f8eeb52c6663bdcf1053e69d724d8.1697896922045.1698432260295.1698607798294.19&__hssc=94104962.1.1698607798294&__hsfp=3453512136">Chile</a>
+</h5></h5>
+    </div> 
+    
+    <div class="footer">
+    <h5> www.docplanner.com © 2023</h5>
+    </div>
+
+</html>

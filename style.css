@@ -1,0 +1,274 @@
+body {
+    font-family: Roboto,Arial,sans-serif;
+
+}
+
+.docplaner-header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.header-menu ul li{
+    margin-left: 20px;
+    
+
+}
+a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+.active {
+    color: #00b39b;
+}
+.header-menu ul a:hover {
+    color:#00b39b ;
+}
+
+/* section 1 ***********************************************/
+
+#logoo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.lead-logo h1 {
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+    margin-top: 1cm;
+}
+
+
+.sec1p p {
+    margin: 60px 0;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 17px;
+    color: #747474;
+}
+
+.sec1p {
+    display: flex;
+    margin-left: 300px;
+    justify-content: center;
+    width: 61%;
+}
+
+/*********************** section 2************************/
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 65%;
+    margin: 70px 240px 20px 240px;
+    margin-top: 0px;
+    
+}
+
+.patients {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    margin: 3.5%;
+    margin-right: 20px;
+
+
+}
+
+.patients h2 {
+    color: white;
+}
+
+.patients h1 {
+    color: white;
+    font-family: Work Sans,Arial,sans-serif;
+
+}
+
+.selec select {
+    border: 0;
+    text-decoration: underline;
+    color: white;
+    background: transparent;
+    font-size: 18px;
+    padding: 3%;
+}
+
+.selec select option {
+    color: black;
+}
+
+.doctors {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    margin: 3.5%;
+    margin-right: 20px;
+
+}
+
+.clinics {
+    background-color: darkslategrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    margin: 3.5%;
+    margin-right: 20px;
+}
+
+.section2 h1 {
+    color: white;
+}
+
+.section2 h2 {
+    color: white;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+   margin-right: 250px;
+}
+.part2 h1{
+    color: #00b39b;
+    font-size: 2.125rem ;
+    
+        float: left;
+        width: 33%;
+        font-size: 1.625em;
+        
+        margin-left: 200px;
+
+        
+}
+.container{
+    display: flex;
+}
+.part3{
+    background-color: #e5faf8;
+    
+    
+}
+.container{
+    margin-left: 300px;
+    
+    
+    
+}
+.container1{
+    background-color: white;
+}
+.container4{
+    background-color: white;
+}
+.container3{
+    background-color: white;
+}
+.container2{
+    
+    background-color: white;
+    
+}
+.partie2{
+    margin-left: 100px;
+}
+.part3{
+    display: flex;
+    padding: 50px;
+}
+.part3-1{
+    margin-left: 10px;
+}
+.part3-1 img {
+    width: 356px;
+    height: 335px;
+}
+.part3-1 h1 {
+    color: #00b39b;
+    font-family: work sans ariel sans serif;
+}
+.part3-1 p{
+    font-family:  work sans ariel sans serif;
+    color :gray;
+    margin-left: 40px;
+}
+
+.container h2{
+    color: #00b39b;
+    letter-spacing: 1px;
+
+}
+.container p{
+    color: gray;
+    font-family: work sans ariel sans serif;
+}
+.container2{
+    margin: auto;
+}
+.partie3 h1{
+    color: #00b39b;
+}
+.partie3 p{
+    color: gray;
+    font-family: work sans ariel sans serif;
+}
+.partie3{
+    text-align: center;
+    
+}
+.partie4{
+    text-align: center;
+}
+.lien{
+    display: flex;
+   justify-content: center;
+   font-size: smaller;
+   padding-top: 80px;
+    
+}
+.footer{
+   text-align: center;
+   color: #ababab;
+   padding: 0px;
+  
+}
+.lien h5{
+    color: #ababab;
+   
+}
+.lien a{
+    color: mediumblue;
+}
+
+.header-menu dropdown {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.header-menu dropdown dropdown-content {
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
